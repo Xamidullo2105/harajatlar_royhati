@@ -3,10 +3,16 @@ from functions import add_expenses, expenses_delete, show_today_expenses
 def main():
     
     print("""
-        1. Harajatlarni qo'shish
-        2. Harajatlarni o'chirish
-        3. Bugungi harajatlarni ko'rish
-        4. Chiqish
+        **********************************************
+        *       💰   HARAJATLAR MENYUSI   💰         *
+        **********************************************
+        *                                            *
+        *    1.➕  Harajat qo'shish                  *
+        *    2.❌  Harajatni o'chirish               *
+        *    3.📅  Bugungi harajatlarni ko'rish      *
+        *    4.🚪  Chiqish                           *
+        *                                            *
+        **********************************************
         """)
     
     choice = input("Enter your choice: ")
